@@ -5,8 +5,8 @@
                         ROOT
                      ↙        ↘
                 A(a): 1        G: 5
-            ↙      ↓     ↘                // The alias "f" conflicts.
-          B       C: 4    D(d,dd): 2       // The path "A->d->f" is an ambiguous grammar.
+            ↙      ↓     ↘                  // The alias "f" conflicts.
+          B       C: 4    D(d,dd): 2        // The path "A->d->f" is an ambiguous grammar.
           ↓              ↙       ↘
       E(eee): 2     F1(f): 3    F2(f,f2): 4
 ```
